@@ -1,12 +1,14 @@
 import turtle as t
 
-n=5		# 오각형
-d=100	# 변의 길이
+n=60		# 원을 50개
+r=80		# 반지름
 t.shape("turtle")
-t.color("purple")
-t.begin_fill()
+t.color("green")
+t.bgcolor("black")
+t.speed(0)	# fastest
+
 for x in range(n):
-	t.forward(d)
+	t.circle(r)
 	t.left(360/n)
-t.end_fill()
+t.done()
 
