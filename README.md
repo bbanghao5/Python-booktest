@@ -1,2 +1,2 @@
-# DAY06
- Turtle graphic
+# 모두의 파이썬
+ 예제 코드
